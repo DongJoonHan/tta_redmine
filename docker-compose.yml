@@ -1,0 +1,23 @@
+services:
+
+  redmine:
+    image: redmine:6.0.7
+    container_name: "redmine"
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      REDMINE_DB_MYSQL: db
+      REDMINE_DB_PASSWORD: example
+      SECRET_KEY_BASE: supersecretkey
+    volumes:
+      - ./RedmineData/files:/usr/src/redmine/files
+      - ./RedmineData/plugins:/usr/src/redmine/plugins
+
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: redmine
