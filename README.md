@@ -24,7 +24,7 @@ git clone https://github.com/Ilogeek/redmine_issue_dynamic_edit.git
 ## Checklist
 설치 방법: [https://www.redmineup.com/pages/help/checklists/installing-redmine-checklists-plugin-on-linux?utm_source=Main&utm_medium=email&utm_campaign=Download_plugin_email&utm_term=download_plugin_email&utm_content=installation_guide](https://www.redmineup.com/pages/help/checklists/installing-redmine-checklists-plugin-on-linux?utm_source=Main&utm_medium=email&utm_campaign=Download_plugin_email&utm_term=download_plugin_email&utm_content=installation_guide)
 
-# Agile
+## Agile
 설치방법: [https://www.redmineup.com/pages/help/agile/installing-redmine-agile-plugin-on-linux?utm_source=Main&utm_medium=email&utm_campaign=Download_plugin_email&utm_term=download_plugin_email&utm_content=installation_guide](https://www.redmineup.com/pages/help/agile/installing-redmine-agile-plugin-on-linux?utm_source=Main&utm_medium=email&utm_campaign=Download_plugin_email&utm_term=download_plugin_email&utm_content=installation_guide)
 
 ## DMSF
