@@ -12,6 +12,15 @@ Plugins 폴더 접근
 docker exec -it redmine bash
 ```
 
+## Dynamic Issue Edit
+- 공홈: https://github.com/Ilogeek/redmine_issue_dynamic_edit
+
+### Git Clone 명령
+plugins 폴더에서
+```
+git clone https://github.com/Ilogeek/redmine_issue_dynamic_edit.git
+```
+
 ## DMSF
 - 설치 bundle 권한 설정
 ```sh
