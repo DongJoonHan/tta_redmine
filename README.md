@@ -7,7 +7,7 @@ apt-get update && apt-get install -y build-essential libpq-dev libxml2-dev libxs
 
 # Plugin
 
-Plugins 폴더 접근
+Redmine Container의 Bash 실행(Container 내부 접근 /  Plugins 폴더 접근)
 ```sh
 docker exec -it redmine bash
 ```
