@@ -11,9 +11,9 @@ services:
       REDMINE_DB_PASSWORD: example
       SECRET_KEY_BASE: supersecretkey
     volumes:
-      - ./RedmineData/files:/usr/src/redmine/files
-      - ./RedmineData/plugins:/usr/src/redmine/plugins
-
+      - ./RedmineData/redmine/files:/usr/src/redmine/files
+      - ./RedmineData/redmine/plugins:/usr/src/redmine/plugins
+      - ./RedmineData/redmine/themes:/usr/src/redmine/public/themes
 
   db:
     image: mysql:8.0
@@ -21,3 +21,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: redmine
+    volumes:
+      - ./RedmineData/mysql:/var/lib/mysql
