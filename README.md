@@ -53,6 +53,9 @@ bundle exec rake redmine:plugins NAME=redmine_agile RAILS_ENV=production
 ```
 
 ## DMSF
+- 우리가 사용한 Redmine은 6.0.7이어서, DMSF 플러그인은 최신 버전이 아닌 버전 지원하는 4.2.2 버전 사용
+- 다운로드 링크: https://github.com/picman/redmine_dmsf/archive/refs/tags/v4.2.2.zip 
+
 - 설치 bundle 권한 설정
 ```sh
 chmod 1777 /usr/local/bundle/gems
