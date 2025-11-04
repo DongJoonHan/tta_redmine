@@ -97,3 +97,9 @@ rails redmine:plugins:migrate RAILS_ENV=production
 ```
 RAILS_ENV="production" bundle exec rake assets:precompile
 ``` 
+
+# Gitblit 사용
+## 실행
+```
+docker-compose -f docker-compose_gitblit.yml up
+```
