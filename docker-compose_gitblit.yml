@@ -12,4 +12,4 @@ services:
       - '29418:29418'
       - '2222:22'
     volumes:
-      - './RedmineData/gitblit_data:/var/opt/gitblit'
+      - './RedmineData/redmine/files/gitblit_data:/var/opt/gitblit'
