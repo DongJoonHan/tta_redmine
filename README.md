@@ -32,7 +32,11 @@ bundle install --without development test --no-deployment
 - DB 마이그레이션
 ```
 bundle exec rake redmine:plugins NAME=redmine_checklists RAILS_ENV=production
+```
 
+- 만약 체크리스트 추가가 안되는 경우 다음 명령 추가 실행
+```
+bundle exec rake assets:precompile RAILS_ENV=production
 ```
 
 ## Agile
