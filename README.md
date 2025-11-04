@@ -82,3 +82,18 @@ RAILS_ENV="production" bundle exec rake assets:precompile
 ```sh
 chown -R www-data:www-data plugins/redmine_dmsf
 ```
+
+# Issue Template
+- 공식 Redmine 링크: https://www.redmine.org/plugins/redmine_issue_templates
+- 플러그인 홈페이지: https://github.com/agileware-jp/redmine_issue_templates
+- 플러그인 다운로드 링크: https://github.com/agileware-jp/redmine_issue_templates/archive/refs/tags/1.2.1.zip
+
+- 설치 방법
+```
+rails redmine:plugins:migrate RAILS_ENV=production
+```
+
+- 만약 안되는 경우, 프리컴파일 실기
+```
+RAILS_ENV="production" bundle exec rake assets:precompile
+``` 
