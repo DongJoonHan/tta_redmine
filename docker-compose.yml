@@ -1,7 +1,7 @@
 services:
 
   redmine:
-    image: redmine:6.0.7
+    image: redmine:6.0.8
     container_name: "redmine"
     restart: always
     ports:
@@ -23,4 +23,5 @@ services:
       MYSQL_DATABASE: redmine
     volumes:
       - ./RedmineData/mysql:/var/lib/mysql
+
 
