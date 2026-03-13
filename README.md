@@ -56,6 +56,17 @@ bundle install --without development test --no-deployment
 bundle exec rake redmine:plugins NAME=redmine_agile RAILS_ENV=production
 ```
 
+## EasyGantt
+- Bundle 설치
+```sh
+bundle install --without development test --no-deployment
+```
+
+- DB 마이그레이션
+```
+bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+```
+
 ## DMSF
 - 우리가 사용한 Redmine은 6.0.8이어서, DMSF 플러그인은 최신 버전이 아닌 버전 지원하는 4.2.2 버전 사용
 - 다운로드 링크: https://github.com/picman/redmine_dmsf/archive/refs/tags/v4.2.2.zip 
