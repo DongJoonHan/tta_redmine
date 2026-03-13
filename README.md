@@ -116,6 +116,7 @@ RAILS_ENV="production" bundle exec rake assets:precompile
 
 ## Gitlab Adapter Plugin for 6.0
 https://github.com/DongJoonHan/redmine_gitlab_adapter
+- Gitlab Access Token 생성 페이지: https://gitlab.com/-/user_settings/personal_access_tokens?page=1&state=active&sort=expires_asc
 
 # Redmine Dashboard 예제 프로젝트
 https://github.com/SyneticsCo/RedmineDashboard
