@@ -114,6 +114,9 @@ rails redmine:plugins:migrate RAILS_ENV=production
 RAILS_ENV="production" bundle exec rake assets:precompile
 ``` 
 
+# Redmine Dashboard 예제 프로젝트
+https://github.com/SyneticsCo/RedmineDashboard
+
 # Gitblit 사용
 ## 실행
 ```
