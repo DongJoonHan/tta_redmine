@@ -121,6 +121,17 @@ https://github.com/DongJoonHan/redmine_gitlab_adapter
 # Redmine Dashboard 예제 프로젝트
 https://github.com/SyneticsCo/RedmineDashboard
 
+# 백업
+## 백업하기
+```
+docker exec redmine-db-1 mysqldump -u root -pexample redmine > redmine_backup.sql
+```
+
+## 복원하기
+```
+docker exec -i redmine-db-1 mysql -u root -pexample redmine < redmine_backup.sql
+```
+
 # Gitblit 사용
 ## 실행
 ```
