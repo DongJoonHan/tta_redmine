@@ -4,6 +4,7 @@
 ```
 apt-get update && apt-get install -y build-essential libpq-dev libxml2-dev libxslt-dev libyaml-dev
 ```
+- EasyGantt, DMSF 에서 필요
 
 # Plugin
 
