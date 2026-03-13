@@ -114,6 +114,9 @@ rails redmine:plugins:migrate RAILS_ENV=production
 RAILS_ENV="production" bundle exec rake assets:precompile
 ``` 
 
+## Gitlab Adapter Plugin for 6.0
+https://github.com/DongJoonHan/redmine_gitlab_adapter
+
 # Redmine Dashboard 예제 프로젝트
 https://github.com/SyneticsCo/RedmineDashboard
 
