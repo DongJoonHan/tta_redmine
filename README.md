@@ -12,6 +12,10 @@ Redmine Container의 Bash 실행(Container 내부 접근 /  Plugins 폴더 접�
 docker exec -it redmine bash
 ```
 
+## 중요
+플러그인 설치와 관련된 명령 (bundle exec....)는 Redmine home 디렉토리에서 실행
+Docker 예: /usr/src/redmine
+
 ## Dynamic Issue Edit
 - 공홈: https://github.com/Ilogeek/redmine_issue_dynamic_edit
 
